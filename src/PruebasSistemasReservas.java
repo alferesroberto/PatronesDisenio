@@ -1,3 +1,18 @@
+
+
+import adapter.AdapterReservadorHotel;
+import adapter.ReservadorExterno;
+import adapter.ReservadorHotelExterno;
+import builder.Reserva;
+import command.Comando;
+import command.ComandoReserva;
+import factory.ServicioFactory;
+import factory.ServicioReserva;
+import observer.Notificador;
+import singleton.SistemaReservas;
+import strategy.MetodoPago;
+import strategy.PagoPaypal;
+
 import java.util.*;
 
 public class PruebasSistemasReservas {

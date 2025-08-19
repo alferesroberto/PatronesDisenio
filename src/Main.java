@@ -1,3 +1,14 @@
+import builder.Reserva;
+import command.Comando;
+import command.ComandoReserva;
+import decorator.ExtraDecorator;
+import decorator.ReservaBase;
+import decorator.ReservaSimple;
+import decorator.SeguroDecorator;
+import facade.FachadaReservas;
+import strategy.MetodoPago;
+import strategy.PagoTarjeta;
+
 public class Main {
     public static void main(String[] args) {
         FachadaReservas fachada = new FachadaReservas();
